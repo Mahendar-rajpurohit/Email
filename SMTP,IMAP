@@ -1,0 +1,126 @@
+IMAP Errors
+
+IMAP Error: Authentication Failed
+Cause:
+Incorrect username or password.
+Two-factor authentication enabled without an app-specific password.
+IMAP access not enabled in the email settings.
+Fix:
+Verify the username and password.
+If two-factor authentication is enabled, create an app-specific password.
+Ensure that IMAP access is enabled in the email provider's settings.
+
+IMAP Error: Cannot Connect to Server
+Cause:
+Incorrect server name or port number.
+Firewall or antivirus blocking IMAP ports.
+Network connectivity issues.
+Fix:
+Check and update server settings.
+Disable firewall or antivirus temporarily to test the connection.
+Test network connectivity and switch to a stable connection.
+
+IMAP Error: Connection Timed Out
+Cause:
+Slow or unstable internet connection.
+Incorrect server settings or timeout values.
+Fix:
+Increase the timeout duration in the email client settings.
+Test and stabilize your internet connection.
+Verify the server settings.
+
+IMAP Error: Too Many Simultaneous Connections
+Cause:
+Multiple devices using the same email account.
+The email server has a connection limit per user.
+Fix:
+Reduce the number of devices connected to the email account.
+Contact the email service provider to increase the connection limit.
+
+IMAP Error: Mailbox Not Available
+Cause:
+The folder or mailbox does not exist.
+The mailbox is full or deleted.
+Fix:
+Verify the mailbox or folder name.
+Clear some space if the mailbox is full.
+
+IMAP Error: Error Synchronizing Folder
+Cause:
+Corrupted email client configuration.
+Network interruptions during synchronization.
+Fix:
+Remove and re-add the email account in the email client.
+Ensure a stable network connection.
+
+IMAP Error: Permission Denied
+Cause:
+Insufficient permissions for the folder.
+Misconfigured account permissions on the server.
+Fix:
+Check folder permissions in the email client's settings.
+Contact the server administrator for permission adjustments.
+
+---------------------------------------------------------------
+
+SMTP Errors
+
+SMTP Error: 550 - Relay Not Permitted
+Cause:
+SMTP server does not allow relaying for unauthenticated users.
+Incorrect email server settings.
+Fix:
+Enable SMTP authentication in the email client.
+Verify outgoing server settings.
+
+SMTP Error: 554 - Message Rejected
+Cause:
+Email flagged as spam.
+IP or domain blacklisted.
+Fix:
+Check your email for spammy content or links.
+Use tools like MXToolBox to check if your IP or domain is blacklisted.
+
+SMTP Error: 535 - Authentication Failed
+Cause:
+Incorrect username or password.
+Authentication protocol mismatch.
+Fix:
+Double-check login credentials.
+Ensure TLS/SSL is enabled in the email client.
+
+SMTP Error: 451 - Temporary Local Problem
+Cause:
+The server is overloaded.
+The recipient's mailbox server is temporarily unavailable.
+Fix:
+Retry after some time.
+Contact the email provider if the issue persists.
+
+SMTP Error: 421 - Service Not Available
+Cause:
+The server is temporarily unavailable.
+The IP address is rate-limited.
+Fix:
+Wait and retry sending the email.
+Check with the server administrator to remove rate limits.
+
+SMTP Error: 530 - Authentication Required
+Cause:
+SMTP authentication is not enabled.
+Fix:
+Enable SMTP Authentication in the email client settings.
+
+SMTP Error: Invalid HELO/EHLO
+Cause:
+Misconfigured hostname in the email client.
+Fix:
+Use the correct domain name or hostname in your email client configuration.
+
+SMTP Error: Timeout
+Cause:
+Slow network connection.
+Firewall blocking the SMTP port.
+Fix:
+Ensure ports 587 or 465 are open and accessible.
+Stabilize your internet connection.
