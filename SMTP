@@ -1,0 +1,113 @@
+
+1. SMTP Error: 550 - Relay Not Permitted
+Cause:
+SMTP server does not allow relaying for unauthenticated users.
+Incorrect email server settings.
+Fix:
+Enable SMTP authentication in the email client.
+Verify outgoing server settings.
+
+2. SMTP Error: 554 - Message Rejected
+Cause:
+Email flagged as spam.
+IP or domain blacklisted.
+Fix:
+Check your email for spammy content or links.
+Use tools like MXToolBox to check if your IP or domain is blacklisted.
+
+3. SMTP Error: 535 - Authentication Failed
+Cause:
+Incorrect username or password.
+Authentication protocol mismatch.
+Fix:
+Double-check login credentials.
+Ensure TLS/SSL is enabled in the email client.
+
+4. SMTP Error: 451 - Temporary Local Problem
+Cause:
+The server is overloaded.
+The recipient's mailbox server is temporarily unavailable.
+Fix:
+Retry after some time.
+Contact the email provider if the issue persists.
+
+5. SMTP Error: 421 - Service Not Available
+Cause:
+The server is temporarily unavailable.
+The IP address is rate-limited.
+Fix:
+Wait and retry sending the email.
+Check with the server administrator to remove rate limits.
+
+6. SMTP Error: 530 - Authentication Required
+Cause:
+SMTP authentication is not enabled.
+Fix:
+Enable SMTP Authentication in the email client settings.
+
+7. SMTP Error: Invalid HELO/EHLO
+Cause:
+Misconfigured hostname in the email client.
+Fix:
+Use the correct domain name or hostname in your email client configuration.
+
+8. SMTP Error: Timeout
+Cause:
+Slow network connection.
+Firewall blocking the SMTP port.
+Fix:
+Ensure ports 587 or 465 are open and accessible.
+Stabilize your internet connection.
+
+9. SMTP Error: 552 - Message Too Large
+Cause:
+The email exceeds the recipient's maximum message size limit.
+Fix:
+Reduce the size of the email by compressing attachments.
+Use a file-sharing service to send large files.
+
+10. SMTP Error: 553 - Invalid Email Address
+Cause:
+The recipient's email address is incorrectly formatted.
+Fix:
+Double-check and correct the recipient's email address.
+
+11. SMTP Error: 450 - Mailbox Unavailable
+Cause:
+The recipient's mailbox is full or temporarily unavailable.
+Fix:
+Retry after some time.
+Inform the recipient to clear space in their mailbox.
+
+12. SMTP Error: 500 - Syntax Error Command Unrecognized
+Cause:
+The client sent an invalid or unsupported command.
+Fix:
+Update the email client or reconfigure settings.
+Contact the server administrator if the issue persists.
+
+13. SMTP Error: STARTTLS Required
+Cause:
+The server requires encrypted communication, but the client is not using TLS/SSL.
+Fix:
+Enable STARTTLS or SSL/TLS in the email client.
+
+14. SMTP Error: 451 - Invalid Sender Domain
+Cause:
+The sender's domain is misconfigured or lacks proper DNS records like SPF, DKIM, or DMARC.
+Fix:
+Verify DNS settings for SPF, DKIM, and DMARC compliance.
+
+15. SMTP Error: Greylisting
+Cause:
+The recipient server temporarily rejects emails as part of its spam prevention mechanism.
+Fix:
+Wait and retry sending the email later.
+
+16. SMTP Error: 554 - Transaction Failed
+Cause:
+A general error or policy violation on the recipient server.
+Fix:
+Contact the recipient's email administrator for details.
+
+Also check https://support.google.com/a/answer/3726730?hl=en Gmail , https://learn.microsoft.com/en-us/exchange/troubleshoot/email-delivery/ndr/non-delivery-reports-in-exchange-online Outlook
