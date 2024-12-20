@@ -110,4 +110,6 @@ A general error or policy violation on the recipient server.
 Fix:
 Contact the recipient's email administrator for details.
 
+Curious about how these codes are genrated then check https://support.google.com/a/answer/3221692?hl=en&ref_topic=1355150&sjid=16419638409207417137-AP
+
 Also check https://support.google.com/a/answer/3726730?hl=en Gmail , https://learn.microsoft.com/en-us/exchange/troubleshoot/email-delivery/ndr/non-delivery-reports-in-exchange-online Outlook
