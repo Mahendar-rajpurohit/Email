@@ -1,0 +1,84 @@
+1. IMAP Error: Authentication Failed
+Cause:
+Incorrect username or password.
+Two-factor authentication enabled without an app-specific password.
+IMAP access not enabled in the email settings.
+Fix:
+Verify the username and password.
+If two-factor authentication is enabled, create an app-specific password.
+Ensure that IMAP access is enabled in the email provider's settings.
+
+2. IMAP Error: Cannot Connect to Server
+Cause:
+Incorrect server name or port number.
+Firewall or antivirus blocking IMAP ports.
+Network connectivity issues.
+Fix:
+Check and update server settings.
+Disable firewall or antivirus temporarily to test the connection.
+Test network connectivity and switch to a stable connection.
+
+3. IMAP Error: Connection Timed Out
+Cause:
+Slow or unstable internet connection.
+Incorrect server settings or timeout values.
+Fix:
+Increase the timeout duration in the email client settings.
+Test and stabilize your internet connection.
+Verify the server settings.
+
+4. IMAP Error: Too Many Simultaneous Connections
+Cause:
+Multiple devices using the same email account.
+The email server has a connection limit per user.
+Fix:
+Reduce the number of devices connected to the email account.
+Contact the email service provider to increase the connection limit.
+
+5. IMAP Error: Mailbox Not Available
+Cause:
+The folder or mailbox does not exist.
+The mailbox is full or deleted.
+Fix:
+Verify the mailbox or folder name.
+Clear some space if the mailbox is full.
+
+6. IMAP Error: Error Synchronizing Folder
+Cause:
+Corrupted email client configuration.
+Network interruptions during synchronization.
+Fix:
+Remove and re-add the email account in the email client.
+Ensure a stable network connection.
+
+7. IMAP Error: Permission Denied
+Cause:
+Insufficient permissions for the folder.
+Misconfigured account permissions on the server.
+Fix:
+Check folder permissions in the email client's settings.
+Contact the server administrator for permission adjustments.
+
+8. IMAP Error: Connection Closed by Server
+Cause:
+Idle time exceeds the server's configured limits.
+Server crashes or is restarted.
+Fix:
+Check server logs for specific errors.
+Reduce the idle time set in your client configuration.
+
+9. IMAP Error: Folder Does Not Exist
+Cause:
+Misconfigured folder mapping in the client.
+Deleted or renamed folders on the server.
+Fix:
+Ensure the correct folder mapping.
+Resynchronize the folder structure.
+
+10. IMAP Error: Command Failed
+Cause:
+Unsupported or malformed command sent to the server.
+Server-side issue or outdated client.
+Fix:
+Update the email client to the latest version.
+Contact the server administrator to identify the issue.
